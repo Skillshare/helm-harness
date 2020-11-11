@@ -1,0 +1,9 @@
+name: "harness"
+version: "0.1.0"
+usage: "Interpolate Harness expressions"
+description: |-
+  "Replace Harness.io expressions in values files with environment variables"
+command: "$HELM_PLUGIN_DIR/lib/run.sh"
+
+ignoreFlags: false
+useTunnel: false
